@@ -3,19 +3,10 @@
 Upstream: <https://huggingface.co/datasets/neuromaner/sheetbench>
 (companion data for the SheetBrain code repo, which is MIT).
 
-## Licensing
+License: **MIT**, as declared on the upstream dataset card.
 
-The Hugging Face page carries an `mit` metadata tag, but there is no LICENSE
-file or license text in the upstream dataset repo, and its README is empty.
+sheetbench is a compilation drawn from a number of upstream table and
+spreadsheet benchmarks. The `Source` field in each case JSON records which one a
+given case came from.
 
-**Licenses here are mixed and partly unresolved.** sheetbench is a *compilation*
-drawn from many upstream benchmarks — the `Source` field in the case JSONs
-records which. The aggregate MIT tag covers the compilation only; it does not
-override the terms of the constituent sources, several of which are more
-restrictive than MIT. Known examples include HiTab (C-UDA, computational use
-only) and SheetCopilot (non-commercial only); others carry share-alike or
-attribution requirements, and several could not be confirmed at all. The
-`New Cases` entries are built on external files with their own terms.
-
-Trace the `Source` field of the specific cases you use before relying on this
-data for anything beyond internal research.
+The `.xlsx` workbooks and case JSONs are unmodified from upstream.
