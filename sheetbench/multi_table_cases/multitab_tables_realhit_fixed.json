@@ -1,0 +1,68 @@
+[
+  {
+    "File": "sheetbench/multi-table cases/multiple_tables_realhit_xlsx/activitytime-table01.xlsx",
+    "Tags": ["multiple"],
+    "QA": [
+      "Compare the average time spent on 'Housework' by not-employed fathers and full-time employed mothers with Own household children 6-17. Who spends more, and by how many hours? Round the answer to two decimal places.",
+      "full-time employed mothers, 0.28"
+    ],
+    "Source": "RealHiTBench",
+    "ID": "189",
+    "Type": "QA"
+  },
+  {
+    "File": "sheetbench/multi-table cases/multiple_tables_realhit_xlsx/activitytime-table03.xlsx",
+    "Tags": ["multiple"],
+    "QA": [
+      "Determine which activity shows the maximum difference in time spent between mothers and fathers with “Own household children under 18” in “Both spouses work full time”.",
+      "Leisure and sports"
+    ],
+    "Source": "RealHiTBench",
+    "ID": "198",
+    "Type": "QA"
+  },
+  {
+    "File": "sheetbench/multi-table cases/multiple_tables_realhit_xlsx/business-table03.xlsx",
+    "Tags": ["multiple"],
+    "QA": [
+      "What is the value decrease in “Total Departmental Expenditure Limit (DEL)” from Q2 2010-11 to Q2 2011-12?",
+      "303"
+    ],
+    "Source": "RealHiTBench",
+    "ID": "461",
+    "Type": "QA"
+  },
+  {
+    "File": "sheetbench/multi-table cases/multiple_tables_realhit_xlsx/economy-table17.xlsx",
+    "Tags": ["multiple"],
+    "QA": [
+      "Compare “Workforce Size” trends in the “Current” state over time. Does it increase, decrease, or stay the same when compared to the “Previous” state?",
+      "Decrease"
+    ],
+    "Source": "RealHiTBench",
+    "ID": "138",
+    "Type": "QA"
+  },
+  {
+    "File": "sheetbench/multi-table cases/multiple_tables_realhit_xlsx/labor-table17.xlsx",
+    "Tags": ["multiple"],
+    "QA": [
+      "How many “all shifts” percentages across the week for GV12 exceeded the “Target” percentage of 61.30%?",
+      "2"
+    ],
+    "Source": "RealHiTBench",
+    "ID": "848",
+    "Type": "QA"
+  },
+  {
+    "File": "sheetbench/multi-table cases/multiple_tables_realhit_xlsx/labor-table17.xlsx",
+    "Tags": ["multiple"],
+    "QA": [
+      "What is the average percentage for all shifts of GV12 across the week, and what is the standard deviation?",
+      "56.33, 16.68"
+    ],
+    "Source": "RealHiTBench",
+    "ID": "849",
+    "Type": "QA"
+  }
+]

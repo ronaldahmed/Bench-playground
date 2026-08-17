@@ -1,0 +1,12 @@
+# HuggingFace datasets cache artifacts (empty .lock files, no payload)
+tablebench/Multilingual-Multimodal-NLP___table_bench/
+tablebench/neuromaner___sheetbench/
+*.lock
+
+# Raw .arrow shards (1.2 GB) -- superseded by the zstd parquet copies in the
+# same directory, which are a verified-lossless round-trip of them.
+# See deepnlz-ds-instruct-500k/README.md.
+deepnlz-ds-instruct-500k/train/
+
+__pycache__/
+.venv/

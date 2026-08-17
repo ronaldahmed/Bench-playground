@@ -1,0 +1,35 @@
+[
+  {
+    "File": "sheetbench/multi-table cases/hard_xlsx/mmqa1069.xlsx",
+    "Tags": ["large table, multitable"],
+    "QA": [
+      "How many distinct colleges are associated with players from the team with name 'Miami Fusion'?",
+      "2"
+    ],
+    "Source": "New Cases",
+    "ID": "5",
+    "Type": "QA"
+  },
+  {
+    "File": "sheetbench/multi-table cases/hard_xlsx/mmqa1069.xlsx",
+    "Tags": ["multitable"],
+    "QA": [
+      "Who plays for team Columbus Crew?",
+      "Steve Ralston"
+    ],
+    "Source": "New Cases",
+    "ID": "6",
+    "Type": "QA"
+  },
+  {
+    "File": "sheetbench/multi-table cases/hard_xlsx/mmqa0021.xlsx",
+    "Tags": ["multitable"],
+    "QA": [
+        "Find the average age of the students who have allergies with food and animal types. Round to two decimal places.",
+        "18.33"
+    ],
+    "Source": "New Cases",
+    "ID": "12",
+    "Type": "QA"
+  }
+]

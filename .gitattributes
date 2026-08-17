@@ -1,0 +1,2 @@
+*.parquet filter=lfs diff=lfs merge=lfs -text
+sheetbench/large_cases/large_cases_xlsx/*.xlsx filter=lfs diff=lfs merge=lfs -text
