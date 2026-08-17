@@ -1,0 +1,84 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 1254588379,
+  "description": "",
+  "download_checksums": {
+    "/tmp/claude-1000/-home-ronald-agentics-playground-data/ddddc255-5423-4e13-a5e0-7def22c952b1/scratchpad/ds_instruct_500k.jsonl": {
+      "num_bytes": 1293362061,
+      "checksum": null
+    }
+  },
+  "download_size": 1293362061,
+  "features": {
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "messages": [
+      {
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      }
+    ],
+    "input_tokens": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "output_tokens": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "total_tokens": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "evaluation": {
+      "difficulty": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "quality": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "ability": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      }
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 2547950440,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1254588379,
+      "num_examples": 26202,
+      "shard_lengths": [
+        10779,
+        7325,
+        8098
+      ],
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
