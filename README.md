@@ -11,6 +11,7 @@ Datasets for spreadsheet and table benchmark work.
 | `tablebench/` | 16 MB | 5 `.jsonl` splits (TQA + DP/TCoT/SCoT/PoT instruct) |
 | `stateval/` | 11 MB | Statistical reasoning benchmark, 1,900 questions in 2 tracks |
 | `docs/` | 40 KB | Benchmark comparison matrix (docx + xlsx) |
+| `docs/slides/` | 17 MB | AAAI-2026 tutorial slides, *Uncertainty Quantification for LLMs* (Shelmanov et al.), 232 pp. — from [the tutorial site](https://sites.google.com/view/aaai-2026-tutorial-th07) |
 
 Each dataset directory has a `SOURCE.md` (or `README.md`) recording where it
 came from and under what terms.
